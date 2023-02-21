@@ -29,6 +29,10 @@
 .card {
     border-radius: 50px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: rgba(109, 101, 101, 0);
     color: #000;
+}
+.resaltado {
+  padding-top: 20px;
+  font-weight: 700;
 }

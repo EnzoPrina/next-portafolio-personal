@@ -1,13 +1,13 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import Dashboard from '../../public/App-dashboard-para-client.png';
+import Dashboard from '../../../public/ProyectosFotos/DashboardClient.jpg';
 import Image from 'next/image';
-import styles from '../styles/project.module.css'
-export default function MultiActionAreaCard() {
+import styles from '../../styles/project.module.css'
+
+export default function CardI() {
   return (
     <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
