@@ -11,7 +11,9 @@ export default function CardI() {
   return (
     <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
-            <Image src={Dashboard} alt='logo' width={400}/>
+      <div >
+            <Image  src={Dashboard} alt='logo' width={400} className={styles.oscurecerImagen}/>
+            </div>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="text.primary">
             Dashboard

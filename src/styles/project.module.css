@@ -1,8 +1,8 @@
 .project {
-    background-color: #000;
+    background-color: #000000fa;
     width: 100%;
     height: auto;
-
+    margin-bottom: 200px;
 }
 
 .titulo {
@@ -14,7 +14,7 @@
 
 .container {
     display: grid;
-    margin: 200px;
+    margin: 150px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 20px;
@@ -35,4 +35,10 @@
 .resaltado {
   padding-top: 20px;
   font-weight: 700;
+}
+
+.oscurecerImagen {
+  background-color: #0f0f0fe1;
+  align-items: center;
+  z-index: 0;
 }

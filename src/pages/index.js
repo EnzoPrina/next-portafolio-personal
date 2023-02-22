@@ -3,6 +3,7 @@ import Jobs from '@/components/Jobs'
 import Project from '@/components/Project'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Design from '@/components/Design'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <Project />
     <About />
     <Contact />
+    <Design/>
     </>
   )
 }

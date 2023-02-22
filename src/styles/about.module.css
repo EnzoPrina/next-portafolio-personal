@@ -1,0 +1,28 @@
+.bg {
+    background-color: #ffffffbe;
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+    padding-bottom: 50px;
+}
+.titulo {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top:    20px;
+}
+
+.description{
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+.description h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.resaltado {
+    font-weight: 600;
+}
