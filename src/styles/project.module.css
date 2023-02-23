@@ -42,3 +42,21 @@
   align-items: center;
   z-index: 0;
 }
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-weight: 500;
+  align-items: center;
+  background-color: #000;
+  color: white;
+
+}
+
+.bgCard{
+  background-color: #000000fa;
+  color: white;
+}
+.bgBoton {
+  background-color: #000000;
+}

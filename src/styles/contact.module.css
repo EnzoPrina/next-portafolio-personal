@@ -1,0 +1,116 @@
+.bg {
+    width: 100%;
+    height: auto;
+    background-color: #000000fa;
+}
+
+.titulo {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tecn {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+
+.formulario {
+    
+/*     background-color: #000f1d; */
+    height: 350px;
+    width: 80%;
+/*     width: min(60rem, 100% ); */ /**Utilizar el valor mas pequeno **/
+    margin: 70px auto 0;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 28.8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+@media (min-width: 700px) {
+      .contenedorCampos {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: auto auto 135px;
+          column-gap: 32px;
+      }
+}
+
+@media  (max-width: 700px) {
+    .formulario {
+        height: 100vh;
+    }
+ }
+
+    .campo:nth-child(3),
+    .campo:nth-child(4) {
+        grid-column: 1 / 3;
+    }
+
+.campo { 
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #001527;
+    font-weight: 300;
+}
+
+.campo label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo textarea {
+    height: 50px;
+}
+
+.inputText {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: .5rem;
+    font-family: 'Poppins', sans-serif;
+} 
+.enviarFormulario {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #92add3;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.enviar-formulario2 {
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #92add3;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none
+}
