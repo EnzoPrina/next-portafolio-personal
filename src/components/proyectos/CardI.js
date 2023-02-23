@@ -16,7 +16,7 @@ export default function CardI() {
             </div>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color="text.primary">
-            Dashboard
+            Dasoard
           </Typography>
           <Typography variant="body3" color="text.secondary">
             Trabajo realizado para Centro de Estetica
