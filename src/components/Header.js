@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 import Typography from '@mui/material/Typography';
+import PDF from '../../public/EnzoPrina-FrontendDeveloper.pdf'
 import Link from "next/link";
 
 /* import Button from '@mui/material/Button'; */
@@ -19,7 +20,7 @@ const Header = () => {
           <Link href='https://www.linkedin.com/in/enzo-prina-0b7a1b1b3/' legacyBehavior>
             <LinkedInIcon className={styles.icon} />
           </Link>
-          <Link href='' legacyBehavior>
+          <Link href="https://www.behance.net/enzoprina" legacyBehavior>
             <DeveloperModeIcon className={styles.icon} />
           </Link>
 
@@ -39,7 +40,22 @@ const Header = () => {
           <p>React Developer | NextJS | Javascript | Typescript | Vite</p>
         </div>
         <div className={styles.centrarButton}>
-            <button className={styles.button}>Descargar CV</button>
+
+          <ScrollLink to='my_cv' smooth={true}>
+              
+
+                <button className={styles.button}>
+                  <a href={PDF} download='Enzo_Prina'>
+                  Descargar CV
+                  </a>
+                  </button>
+
+
+              
+          </ScrollLink>
+
+
+            
         </div>
   
 
