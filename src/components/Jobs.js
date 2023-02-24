@@ -17,7 +17,7 @@ const Jobs = () => {
                   (certificacion SSL, Paypal Standard, Mercado pago, etc)</p>
                 <h3>Tratos Personales</h3>
                   <p>Evita perder tu tiempo hablando con bots automatizados, <br/>
-                  responderé todas tus dudas en el horario disponible (mayor información en Contáctenos)</p>
+                  responderé todas tus dudas en el horario disponible (para mas informacion, enviame un correo en la seccion de contacto)</p>
                 <h3>Evitate problemas con los pagos</h3>
                   <p>Un pago adelantado del 40% del total, y un 60% al haber culminado el trabajo, <br/>
                   puedes pagar por diferentes medios (Pago Efectivo, Mercado Pago, Transferencia Bancaria). <br/>
