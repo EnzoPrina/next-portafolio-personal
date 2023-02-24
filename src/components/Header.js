@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import Link from "next/link";
 
 /* import Button from '@mui/material/Button'; */
-const PDF_FILE_URL = "http://localhost:3001/EnzoPrina-FrontendDeveloper.pdf";
+const PDF_FILE_URL = "/EnzoPrina-FrontendDeveloper.pdf";
 const Header = () => {
   const downloadFileAtURL = (url) => {
     fetch(url)
