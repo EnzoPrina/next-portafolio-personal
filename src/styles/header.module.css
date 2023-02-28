@@ -3,6 +3,7 @@
     background-color: #000000fa;
     width: 100%;
     height: 75vh;
+
 }
 
 .titulos {
@@ -15,6 +16,7 @@
     justify-content: center;
     margin-bottom: -30px;
 
+
 }
 .titulosII {
     padding-top: -20px;
@@ -22,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .titulosIII {
     margin-top: -30px;
